@@ -1,0 +1,30 @@
+public class LogicalOptTable {
+
+    public static void main(String args[]) {
+
+      int p, q;
+        System.out.println("P\t\tQ\t\tAND\t\tOR\t\tXOR\t\tNOT");
+        p = 0;
+        q = 1;
+        System.out.print(p + "\t\t" + q + "\t\t");
+        System.out.print((p&q) + "\t\t" + (p|q) + "\t\t");
+        System.out.println((p^q) + "\t\t" + (1 - p));
+        p = 0;
+        q = 1;
+        System.out.print(p + "\t\t" + q + "\t\t");
+        System.out.print((p&q) + "\t\t" + (p|q) + "\t\t");
+        System.out.println((p^q) + "\t\t" + (1 - p));
+        p = 1;
+        q = 0;
+        System.out.print(p + "\t\t" + q + "\t\t");
+        System.out.print((p&q) + "\t\t" + (p|q) + "\t\t");
+        System.out.println((p^q) + "\t\t" + (1 - p));
+        p = 1;
+        q = 0;
+        System.out.print(p + "\t\t" + q + "\t\t");
+        System.out.print((p&q) + "\t\t" + (p|q) + "\t\t");
+        System.out.println((p^q) + "\t\t" + (1 - p));
+
+    }
+
+}
